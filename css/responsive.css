@@ -1,0 +1,267 @@
+/*  Theme Responsive Css */
+
+
+
+
+@media only screen and (max-width: 1200px){
+	
+  body {
+    overflow-x:hidden;
+  }
+  .main-header .outer-box .navigation {
+    padding: 0px 0px 0px 0px;
+  }
+  .navbar-header{
+    display: none;
+  }
+  .contact-section .contact-form-area{
+    padding: 29px 30px 35px 30px;
+  }
+}
+
+
+
+@media only screen and (max-width: 991px){
+	
+  .main-header{
+    height: 80px;
+    min-height: 80px;
+    width: 100%;
+  }
+  .main-header .outer-box .social{
+    position: absolute;
+    top: 22px;
+    right: 0px;
+    left: inherit;
+  }
+  .main-header .outer-box .social li a{
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .main-content-column{
+    width: 100%;
+    float: none;
+    padding: 0px;
+  }
+  .about-section .about-content {
+    margin: 30px 0px 0px 0px;
+  }
+  .about-section .img-box{
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .about-section .img-box:before{
+    display: none;
+  }
+  .portfolio-section .post-filter{
+    float: none;
+    margin-top: 20px;
+  }
+  .portfolio-section .post-filter li{
+    margin: 0px 15px 0px 0px;
+  }
+  .contact-section .contact-form-area{
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px #f7f7f7;
+  }
+  .about-section{
+    padding-top: 100px;
+  }
+  .resume-section .education-content{
+    margin: 0px 0px 50px 0px;
+  }
+  .resume-section .employment-content{
+    margin: 0px;
+  }
+  .main-header .outer-box .logo-outer{
+    display: none;
+  }
+  .main-header .outer-box .menu-box {
+    padding: 22px 0px 0px 0px;
+  }
+	
+}
+
+
+@media only screen and (max-width: 768px){
+	
+	.contact-section .contact-form-area{
+    padding: 41px 30px 34px 30px;
+  }
+	
+}
+
+@media only screen and (max-width: 599px){
+	
+
+
+}
+
+
+@media only screen and (max-width: 499px){
+
+	
+
+
+}
+
+@media only screen and (max-width: 399px){
+
+	
+
+}
+
+@media only screen and (max-width: 349px){
+
+
+
+}
+
+
+
+
+/* =============== Mobile menu ===================== */
+
+@media only screen and (max-width: 991px) {
+  .header-top .links-nav li{
+    margin-right: 15px;
+  } 
+  .main-menu .navbar-header{
+    position: relative;
+    float:none;
+    display:block;
+    text-align:left;
+    padding-bottom: 13px;
+    width:100%;
+    top: 0px;
+    z-index:12;
+  }
+  .main-header .main-menu {
+    width: 100%;
+  }  
+  .main-menu .navbar-header .navbar-toggle{
+    display:inline-block;
+    z-index:7;
+    float:none;
+    padding: 4px 5px;
+    cursor:  pointer;
+    margin: 0px 0px 0px 20px;
+    border-radius:0px;
+    background:  transparent;
+  }  
+  .main-menu .navbar-header .navbar-toggle .icon-bar{
+    background: #ffffff;
+    height: 2px;
+    width: 29px;
+    display:  block;
+    margin: 7px 5px;
+  }
+  .main-menu .collapse {
+    overflow:auto;
+    float:none;
+    width:100%;
+    padding:0px 0px 0px;
+    border:none;
+    margin:0px;
+    -ms-border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+   }
+   .main-menu .navbar-collapse > .navigation{
+    float:none !important;
+    margin:0px !important;
+    width:100% !important;
+    background: #000000;
+    border-top:none;
+  }  
+  .main-menu .navbar-collapse > .navigation > li{
+    margin:0px !important;
+    float:none !important;
+    width:100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  }  
+  .main-menu .navigation > li > a,
+  .main-menu .navigation > li > ul:before{
+    border:none;  
+  }  
+  .main-menu .navbar-collapse > .navigation > li > a{
+    padding:10px 10px !important;
+    border:none !important;
+  }  
+  .main-menu .navigation li.dropdown > a:after,
+  .main-menu .navigation > li.dropdown > a:before,
+  .main-menu .navigation > li > ul > li > a::before,
+  .main-menu .navigation > li > ul > li > ul > li > a::before{
+    color:#ffffff !important;
+    right:15px;
+    font-size:16px;
+    display:none !important;
+  }  
+  .main-menu .navbar-collapse > .navigation > li > ul,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul{
+    position:relative;
+    border:none;
+    float:none;
+    visibility:visible;
+    opacity:1;
+    display:none;
+    margin:0px;
+    padding:0px;
+    left:auto !important;
+    right:auto !important;
+    top:auto !important;
+    width:100%;
+    background: #333333;
+    -webkit-border-radius:0px;
+    -ms-border-radius:0px;
+    -o-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+    transition:none !important;
+    -webkit-transition:none !important;
+    -ms-transition:none !important;
+    -o-transition:none !important;
+    -moz-transition:none !important;
+    box-shadow:none !important;
+  }    
+  .main-menu .navbar-collapse > .navigation > li > ul,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul{
+    border-top:1px solid rgba(255,255,255,0.1) !important;
+  }
+  .main-menu .navbar-collapse > .navigation > li:last-child{
+    border-bottom: none;
+  } 
+  .main-menu .navbar-collapse > .navigation > li > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
+    padding:12px 25px !important;
+    line-height:22px;
+    color: #b8b8b8;
+    background: #000000;
+    text-align:left;
+    min-height:0px;
+    display: block;
+  }  
+  .main-menu .navbar-collapse > .navigation > li:hover > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+  .main-menu .navbar-collapse > .navigation > li.current > a,
+  .main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
+    color: #ffffff !important;
+    background: #000000;
+  }  
+  .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
+    display:block;
+  }  
+  .main-menu .navbar-collapse > .navigation li.dropdown:after,
+  .main-menu .navigation > li > ul:before{
+    display:none !important;  
+  }
+
+}
