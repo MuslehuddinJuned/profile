@@ -28,6 +28,8 @@
 /* use style sheet */
 
 @import url(font-awesome.css);
+@import url(brands.min.css);
+@import url(all.min.css);
 @import url(flaticon.css);
 @import url(bootstrap.css);
 @import url(animate.css);

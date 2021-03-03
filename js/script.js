@@ -158,7 +158,7 @@
 		var animateSpan			= jQuery('.animation_text_word');
 		
 			animateSpan.typed({
-				strings: ["User Interface Designer", "Creative Web Developer", "User Interface Designer"],
+				strings: ["Zend Certified PHP Engineer", "Web App Developer", "Creative CAD Designer"],
 				loop: true,
 				startDelay: 1e3,
 				backDelay: 3e3
