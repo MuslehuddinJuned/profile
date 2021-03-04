@@ -28,8 +28,6 @@
 /* use style sheet */
 
 @import url(font-awesome.css);
-@import url(brands.min.css);
-@import url(all.min.css);
 @import url(flaticon.css);
 @import url(bootstrap.css);
 @import url(animate.css);
@@ -267,6 +265,13 @@ figure{
   background-position:center center;
   background-repeat:no-repeat;
   background-image:url(../images/icons/preloader.gif);
+  
+}
+
+@media only screen and (max-width:600px) {
+  .preloader{
+    background-size: 100%;
+  }
 }
 
 .scroll-top {
